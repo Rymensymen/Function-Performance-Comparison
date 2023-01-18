@@ -1,6 +1,11 @@
 # Function-Performance-Comparison
 In this repository you can find a function that can be used to compare the run time of different functions 
-The function takes in a list of functions and a list of numeric inputs of varying lengths. It will output both a summary table showing max, min, average runtime as well as difference between fastest and slowest run time. It also returns a table that shows the run time for all inputs for each function
+The function takes in a list of functions and a list of numeric inputs of varying lengths. It will output both a summary table showing max, min, average runtime as well as difference between fastest and slowest run time. It also returns a table that shows the run time for all inputs for each function. 
+
+**Usage:**
+You can use the function by either downloading the .py file to your environment and calling it in your script. Alternatively, you can copy paste the function from the .py file and add it to your script directly
+
+`compare_function_performance(functions,inputs) #this calls the fuction`
 
 **Example Input:** 
 
@@ -27,3 +32,5 @@ def even_slower(n):
 return n if n<9 else n%10 + digit_sum(n//10)
 
 functions=[my_solution,code_wars_solution,slow_solution] 
+
+
